@@ -1,6 +1,5 @@
 rootProject.name = "MapEventCreator"
 include(":composeApp")
-
 pluginManagement {
     repositories {
         google()
@@ -15,3 +14,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+include(":theme")
