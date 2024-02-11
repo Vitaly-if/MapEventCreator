@@ -24,7 +24,7 @@ android {
         minSdk = 24
         compileSdk = 34
     }
-    namespace = "com.saturndev..theme"
+    namespace = "com.saturndev.theme"
     sourceSets["main"].apply {
         res.srcDirs("src/androidMain/resources")
         resources.srcDirs("src/commonMain/resources")
